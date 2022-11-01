@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FMnewpage/static/css/main.8c6cb6d4.css",
+    "main.js": "/FMnewpage/static/js/main.97ecc18b.js",
+    "static/js/787.6b4b1cbe.chunk.js": "/FMnewpage/static/js/787.6b4b1cbe.chunk.js",
+    "static/media/web-3-desktop.jpg": "/FMnewpage/static/media/web-3-desktop.988d05305d18140f188c.jpg",
+    "static/media/retro-pcs.jpg": "/FMnewpage/static/media/retro-pcs.4ecb8a36b05f012297a6.jpg",
+    "static/media/logo.svg": "/FMnewpage/static/media/logo.c6b5661f5975f9f1c10d76ac5d2a72c6.svg",
+    "index.html": "/FMnewpage/index.html",
+    "static/media/icon-menu-close.svg": "/FMnewpage/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
+    "static/media/icon-menu.svg": "/FMnewpage/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
+    "main.8c6cb6d4.css.map": "/FMnewpage/static/css/main.8c6cb6d4.css.map",
+    "main.97ecc18b.js.map": "/FMnewpage/static/js/main.97ecc18b.js.map",
+    "787.6b4b1cbe.chunk.js.map": "/FMnewpage/static/js/787.6b4b1cbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c6cb6d4.css",
+    "static/js/main.97ecc18b.js"
+  ]
+}
