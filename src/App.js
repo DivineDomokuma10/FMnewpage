@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Component/Nav';
+import Main from './Component/Main'
+import Slide from './Component/Slide';
+import cancelToggle from './icon-menu-close.svg'
 
 function App() {
+  let slideItem = true;
+
+  function showSlide(){
+    if( slideItem ){
+      document.querySelector('.slide-main-out').style.display = 'flex';
+      document.querySelector('.slide-nav').style.marginRight = '0%';
+      document.querySelector('.slide-nav img').style.marginRight = '13%';
+      slideItem = false;
+    }
+  }
+
+  function hideSlide(e){
+    let slide = e.target.parentElement.parentElement;
+    slide.style.display = 'none';
+    e.target.parentElement.style.marginRight = '-90%';
+    e.target.style.marginRight = '-12%';
+    slideItem = true
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav showSlide={showSlide}/>
+      <Main/>
+      <Slide 
+        hideSlide={hideSlide} 
+        cancelIcon={cancelToggle}
+      />
     </div>
   );
 }

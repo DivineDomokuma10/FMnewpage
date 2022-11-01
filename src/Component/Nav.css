@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 50px;
+    margin-left: 7%;
+}
+.anchors{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: green; */
+    margin-right: 7%;
+}
+.anchors a{
+    transition: .5s;
+    color:  hsl(236, 13%, 42%);
+}
+.anchors a:hover{
+    color:   hsl(5, 85%, 63%);
+}
+#toggle-btn{
+    display: none;
+}
+
+@media (max-width: 375px) {
+    nav{
+        width: 100%;
+        height: 7%;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+    #logo{
+        width: 50px;
+        margin: 5px 0 0 5%;
+    }
+    #toggle-btn{
+        width: 35px;
+        height: 20px;
+        display: block;
+        cursor: pointer;
+    }
+    .anchors{
+        display: none;
+    }
+}
